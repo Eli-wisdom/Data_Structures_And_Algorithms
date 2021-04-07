@@ -6,30 +6,6 @@ ___
 
  This stack illustrates how disposable cups are stack together  one after the other from the top. Dealing with the disposable cups,the last cup on the stack is the first cup to be removed.
 ___
-<<<<<<< HEAD
- **Two classes are created ** 
-
-        -1.stackNList represent the stack.
-
-        -2.Node represent the Node(a cup).
- ___
-**Methods that illustrate the function of Stack**
-
--push
-
--isEmpty
-
--size
-
--peek
-
--pop
-
--display
-
-
-In the main method i have some methods that displays  how stack works.
-=======
  **Two classes are created** 
  
         -1.stackNList represent the stack.
@@ -53,4 +29,3 @@ In the main method i have some methods that displays  how stack works.
 
 
 In the main method i have some methods that displays  how stack works.
->>>>>>> 284a2387da4c62069d3beb1cab0a8b1240dc2f89
