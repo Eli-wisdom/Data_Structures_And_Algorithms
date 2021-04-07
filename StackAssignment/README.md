@@ -13,7 +13,7 @@ ___
 	- stackNList represent the stack.
 
 	- Node represent the Node(a cup).
- __
+ 
 
 **Methods that illustrate the function of Stack**
 
