@@ -8,11 +8,13 @@ ___
 ___
 
  **Two classes are created** 
+    
 
-        - stackNList represent the stack
+	- stackNList represent the stack.
 
-        - Node represent the Node(a cup)
- ___
+	- Node represent the Node(a cup).
+ __
+
 **Methods that illustrate the function of Stack**
 
 - push
