@@ -7,6 +7,7 @@ ___
  This stack illustrates how disposable cups are stack together  one after the other from the top. Dealing with the disposable cups,the last cup on the stack is the first cup to be removed.
 ___
 <<<<<<< HEAD
+<<<<<<< HEAD
  **Two classes are created ** 
 
         - 1.stackNList represent the stack.
@@ -30,6 +31,8 @@ ___
 
 In the main method i have some methods that displays  how stack works.
 =======
+=======
+>>>>>>> e1d244c57ea8daffa9a43297ab21ec6aabcda252
  **Two classes are created** 
  
         -1.stackNList represent the stack.
@@ -53,4 +56,3 @@ In the main method i have some methods that displays  how stack works.
 
 
 In the main method i have some methods that displays  how stack works.
->>>>>>> 284a2387da4c62069d3beb1cab0a8b1240dc2f89
