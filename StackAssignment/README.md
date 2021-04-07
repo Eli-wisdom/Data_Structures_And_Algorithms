@@ -9,9 +9,9 @@ ___
 
  **Two classes are created** 
 
-        - 1.stackNList represent the stack.
+        - stackNList represent the stack.
 
-        - 2.Node represent the Node(a cup).
+        - Node represent the Node(a cup).
  ___
 **Methods that illustrate the function of Stack**
 
@@ -32,24 +32,24 @@ In the main method i have some methods that displays  how stack works.
 
  **Two classes are created** 
  
-    -1.stackNList represent the stack.
+    - stackNList represent the stack.
         
-    -2.Node represent the Node(a cup).
+    - Node represent the Node(a cup).
  ___
  
 -**Methods that illustrate the function of Stack**
 
-     -push
+     - push
 
-     -isEmpty
+     - isEmpty
 
-     -size
+     - size
 
-     -peek
+     - peek
 
-     -pop
+     - pop
 
-     -display
+     - display
 
 
 In the main method i have some methods that displays  how stack works.
