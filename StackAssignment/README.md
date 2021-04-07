@@ -30,27 +30,4 @@ ___
 
 In the main method i have some methods that displays  how stack works.
 
- **Two classes are created** 
  
-    - stackNList represent the stack
-
-        
-    - Node represent the Node(a cup)
- ___
- 
-**Methods that illustrate the function of Stack**
-
-     - push
-
-     - isEmpty
-
-     - size
-
-     - peek
-
-     - pop
-
-     - display
-
-
-In the main method i have some methods that displays  how stack works.
