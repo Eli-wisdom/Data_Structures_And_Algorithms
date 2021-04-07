@@ -21,5 +21,5 @@ ___
 
 - printList
 
-__
+___
 In the main method i have some methods that displays  how the Singly linkedlist works.
