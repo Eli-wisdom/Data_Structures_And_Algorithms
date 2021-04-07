@@ -196,7 +196,7 @@ public class DDList<T> {
             }
             System.out.println("=======================================");
         }
-
+        System.out.println("This is the tail at this point "+tail.data);
     }
 
 
