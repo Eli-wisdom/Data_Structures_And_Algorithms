@@ -10,9 +10,9 @@ ___
  **Two classes are created** 
     
 
-	- stackNList represent the stack.
+- stackNList represent the stack.
 
-	- Node represent the Node(a cup).
+- Node represent the Node(a cup).
  
 
 **Methods that illustrate the function of Stack**
