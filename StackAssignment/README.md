@@ -5,12 +5,12 @@ ___
 **Illustrating stack using  singly linked list.**
  This stack illustrates how disposable cups are stack together  one after the other from the top. Dealing with the disposable cups,the last cup on the stack is the first cup to be removed.
 ___
- **Two classes are created ** 
-        -1.stackNList represent the stack.
-        -2.Node represent the Node(a cup).
+ **Two classes are created** 
+        -~1.stackNList represent the stack.~
+       -~2.Node represent the Node(a cup).~
  ___
  
-**Methods that illustrate the function of Stack**
+-**Methods that illustrate the function of Stack**
 -push-
 -isEmpty-
 -size-
