@@ -9,12 +9,13 @@ ___
         -1.stackNList represent the stack.
         -2.Node represent the Node(a cup).
  ___
+ 
 **Methods that illustrate the function of Stack**
--push
--isEmpty
--size
--peek
--pop
--display
+-push-
+-isEmpty-
+-size-
+-peek-
+-pop-
+-display-
 
 In the main method i have some methods that displays  how stack works.
