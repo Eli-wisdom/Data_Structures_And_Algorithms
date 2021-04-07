@@ -8,9 +8,10 @@ ___
 - DDList:Represent the doubly linked List.
 
 - Node:represent the node/each ancestor.
+___
 
 I have a list of Methods that illustrate how Doubly Linked list works.
-___
+
 - isEmpty
 
 - insertInFront
