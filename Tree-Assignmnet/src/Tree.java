@@ -57,7 +57,10 @@ public class Tree {
         return node;
     }
 
-    //
+    /**
+     *
+     * @return The size of the Tree
+     */
     public int size(){
         System.out.println(SSize);
         return(size(root));
@@ -70,34 +73,7 @@ public class Tree {
             return size(node.left)+1+size(node.right);
         }
     }
-
-
-    public int maxDepth(){
-        return maxDepth(root);
-    }
-    private int maxDepth(Node node){
-        if(node==null){
-            return 0;
-        }else{
-            int lDepth=maxDepth(node.left);
-            int rDepth=maxDepth(node.right);
-            return Math.max(lDepth,rDepth)+1;
-        }
-    }
-
-    //*4.minValue() Solution
-    public int minValue(){
-        return minValue(root);
-    }
-    private int minValue(Node node){
-        Node current=node;
-        while(current.left!=null){
-            current=current.left;
-        }
-        return current.data;
-    }
-
-    //*5.printTree() Solution
+        //*5.printTree() Solution
     public void printTree(){
         printTree(root);
         System.out.println();
@@ -111,7 +87,7 @@ public class Tree {
         printTree(node.right);
     }
 
-    //*6.printPostorder() Solution
+
     public void printPostorder(){
         printPostorder(root);
         System.out.println();
@@ -125,20 +101,9 @@ public class Tree {
         System.out.print(node.data+" ");
     }
 
-    //*7.hasPathSum() Solution
-    public boolean hasPathSum(int sum){
-        return hasPathSum(root,sum);
-    }
-    private boolean hasPathSum(Node node,int sum){
-        if(node==null){
-            return sum==0;
-        }else{
-            int subSum=sum-node.data;
-            return (hasPathSum(node.left,subSum) || hasPathSum(node.right,subSum));
-        }
-    }
 
-    //8.printPaths() Solution
+
+
     public void printPaths(){
         int[] path=new int[10000];
         printPaths(root,path,0);
@@ -165,23 +130,6 @@ public class Tree {
         System.out.println();
     }
 
-    //*9.mirror() Solution
-    public void mirror(){
-        mirror(root);
-    }
-    private void mirror(Node node){
-        if (node !=null) {
-            //do the sub-trees
-            mirror(node.left);
-            mirror(node.right);
-            //swap the left/right pointers
-            Node temp=node.left;
-            node.left=node.right;
-            node.right=temp;
-        }
-    }
-
-    //10.doubleTree() Solution, Changes the tree by inserting a duplicate node on each nodes's .left
     public boolean sameTree(Tree other){
         return sameTree(root,other.root);
     }
@@ -202,23 +150,6 @@ public class Tree {
         }
     }
 
-    //11.countTrees() Solutions, for the key values 1...numKeys, how many structurally unique binary search trees are possible that store those keys?
-    public static int countTrees(int numKeys) {
-        if(numKeys<=1){
-            return 1;
-        }else{
-            int sum=0;
-            int left,right,root;
-            for(root=1;root<=numKeys;root++){
-                left=countTrees(root-1);
-                right=countTrees(numKeys-root);
-                sum+=left*right;
-            }
-            return sum;
-        }
-    }
-
-    //12.isBST() Solutions, to tests if a tree meets the conditions to be a binary search tree(BST)
     public boolean isBST(){
         return isBST(root,Integer.MIN_VALUE,Integer.MAX_VALUE);
     }
@@ -258,20 +189,24 @@ public class Tree {
 
         tree.BinaryTree();
 
-        tree.printTree();
+
         tree.insert(5);
         tree.insert(10);
         tree.insert(13);
         tree.insert(9);
         tree.insert(4);
+
         tree.insert(3);
         tree.insert(9);
         tree.insert(14);
         tree.insert(61);
         tree.insert(14);
         tree.insert(99);
-       // tree.printPaths();
+
+        tree.printTree();
+
         tree.size();
+
 
 
     }
