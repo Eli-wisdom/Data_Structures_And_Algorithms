@@ -73,7 +73,7 @@ public class Tree {
             return size(node.left)+1+size(node.right);
         }
     }
-        //*5.printTree() Solution
+
     public void printTree(){
         printTree(root);
         System.out.println();
@@ -180,14 +180,14 @@ public class Tree {
         tree.insert(14);
         tree.insert(99);
 
-
-
-
         //tree.printTree();
 
         //tree.printPaths();
 
         tree.BinaryTree();
+
+
+
 
 
         tree.insert(5);
